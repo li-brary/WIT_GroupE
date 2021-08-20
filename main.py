@@ -8,8 +8,8 @@ def draw_jalan():
   SCREEN.blit(jalan, (0, jalan_y - 650))
 
 # posisi coin
-coin_random_x1 = [i for i in range(250, 325, 17)]
-coin_random_x2 = [i for i in range(325, 501, 17)]
+coin_random_x1 = [i for i in range(250, 650, 17)]
+coin_random_x2 = [i for i in range(250, 650, 17)]
 coin_y = -650
 
 # membuat coin
